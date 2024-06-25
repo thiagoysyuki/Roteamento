@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "rotas otm"
+version = "0.1.0"
+description = ""
+authors = ["Thiago Yuki"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+pulp = "^2.8.0"
+seaborn = "^0.13.2"
+pyomo = "^6.7.3"
+ipykernel = "^6.29.4"
+openpyxl = "^3.1.4"
+streamlit = "^1.36.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
